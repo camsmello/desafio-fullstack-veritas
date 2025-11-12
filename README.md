@@ -2,7 +2,7 @@
 
 # 🧩 Desafio Técnico – Mini Kanban de Tarefas
 
-Este projeto foi desenvolvido como parte do **Desafio Técnico Fullstack da Veritas Consultoria Empresarial**.  
+Este projeto foi desenvolvido como parte do **Desafio Técnico Fullstack da Veritas Consultoria**.  
 O objetivo era criar um **mini Kanban de tarefas** com três colunas fixas: **A Fazer**, **Em Progresso** e **Concluídas**.
 
 ---
@@ -14,20 +14,20 @@ Desenvolvi este desafio utilizando **HTML, CSS e JavaScript puro**, com o foco e
 - O **entendimento da estrutura e funcionalidades** de um sistema Kanban,  
 - E meu **comprometimento com a entrega**, mesmo ainda em fase de aprendizado nas tecnologias React e Go.
 
-Atualmente, estou estudando **desenvolvimento front-end**, com foco em **HTML, CSS, JavaScript e React**, e decidi entregar o projeto com as tecnologias que domino no momento, mantendo a estrutura e funcionalidades esperadas.
+Atualmente, estou estudando **desenvolvimento front-end**, com foco em **HTML, CSS e JavaScript**, e decidi entregar o projeto com as tecnologias que domino no momento, mantendo a estrutura e funcionalidades esperadas.
 
 ---
 
 ## 🗂 Estrutura do Projeto
 
-/frontend
-├── index.html
-├── style.css
-└── script.js
+/assets
+└── style.css
 
 /docs
 └── user-flow.png
 
+index.html
+script.js
 README.md
 
 ---
@@ -42,8 +42,8 @@ README.md
 ## 📸 Documentação
 
 - **User Flow:** Diagrama que mostra as principais ações do usuário no sistema.  
-  Arquivo disponível em `/docs/user-flow.png`
-
+![User Flow](./docs/user-flow.png/)
+ 
 ---
 
 ## 🧠 Tecnologias Utilizadas
@@ -65,8 +65,7 @@ README.md
 
 - Migrar o frontend para **React**, com componentes reutilizáveis.  
 - Criar um backend em **Go**, com API RESTful para persistir os dados.  
-- Implementar **salvamento em JSON** ou banco de dados simples.  
-- Melhorar o design com frameworks como **Tailwind CSS**.
+- Implementar **salvamento em JSON** ou banco de dados simples.
 
 ---
 
