@@ -28,7 +28,7 @@ colunas.forEach(coluna => {
   coluna.addEventListener('drop', () => {
     coluna.classList.remove('hover');
     if (cardAtual) {
-      coluna.appendChild(cardAtual); // move o card para a nova coluna
+      coluna.appendChild(cardAtual);
     }
   });
 });
