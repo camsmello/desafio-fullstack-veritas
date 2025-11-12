@@ -21,13 +21,19 @@ Atualmente, estou estudando **desenvolvimento front-end**, com foco em **HTML, C
 ## 🗂 Estrutura do Projeto
 
 /assets
+<br>
 └── style.css
-
+<br>
+<br>
 /docs
+<br>
 └── user-flow.png
-
+<br>
+<br>
 index.html
+<br>
 script.js
+<br>
 README.md
 
 ---
