@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" media="screen">
+    <title>Quadro Kanban</title>
+</head>
+<body>
+    <header>
+        <h1>Quadro Kanban</h1>
+        <p class="texto-cabecalho">Gerencie seus projetos e acompanhe suas tarefas com o quadro Kanban.</p>
+    </header>
+    <main>
+        <div class="kanban">
+            <div class="coluna">
+                <h2 class="titulo-card-1">A Fazer</h2>
+                <div class="card" draggable="true">
+                    <p>Resolver lista de exercícios de Matemática</p>
+                </div>
+                <div class="card" draggable="true">
+                    <p>Organizar pastas no computador</p>
+                </div>
+                <div class="card" draggable="true">
+                    <p>Ler artigo sobre estrutura de dados (listas e filas)</p>
+                </div>
+            </div>
+            <div class="coluna">
+                <h2 class="titulo-card-2">Em Progresso</h2>
+                <div class="card" draggable="true">
+                    <p>Desenvolver página de login com HTML, CSS e JS</p>
+                </div>
+                <div class="card" draggable="true">
+                    <p>Estudar conceitos de API e HTTP</p>
+                </div>
+                <div class="card" draggable="true">
+                    <p>Estudar comandos básicos de terminal (CLI)</p>
+                </div>
+            </div>
+            <div class="coluna">
+                <h2 class="titulo-card-3">Concluídas</h2>
+                <div class="card" draggable="true">
+                    <p>Finalizar curso introdutório de HTML e CSS</p>
+                </div>
+                <div class="card" draggable="true">
+                    <p>Instalar Node.js e Git</p>
+                </div>
+                <div class="card" draggable="true">
+                    <p>Ler o capítulo 3 do livro de Algoritmos</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>📚 Desenvolvido por Camila Mello.</footer>
+    <script src="script.js"></script>
+</body>
+</html>
