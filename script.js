@@ -3,7 +3,6 @@ const colunas = document.querySelectorAll('.coluna');
 
 let cardAtual = null;
 
-// Quando o usuário começa a arrastar
 cards.forEach(card => {
   card.addEventListener('dragstart', () => {
     cardAtual = card;
@@ -16,10 +15,9 @@ cards.forEach(card => {
   });
 });
 
-// Eventos nas colunas (onde o card pode cair)
 colunas.forEach(coluna => {
   coluna.addEventListener('dragover', e => {
-    e.preventDefault(); // permite soltar o card
+    e.preventDefault();
     coluna.classList.add('hover');
   });
 
